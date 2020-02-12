@@ -1,0 +1,16 @@
+div.flag_frame {
+    height: 400px;
+    padding-top: 56.25%;
+
+}
+
+table.flag{
+    height:400px;
+    padding-top: 59.25%;
+    background-color: blue;
+}
+
+table tr td.red_stripe stripes {
+    background-color: red;
+}
+

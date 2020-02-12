@@ -1,0 +1,34 @@
+table, th, td {
+    border-collapse: collapse;
+}
+
+table#flag {
+    height: 400px;
+    width: 711.11111px;
+}
+
+table#flag td {
+    padding: 0;
+}
+
+table#stars {
+    height: 100%;
+    width: 100%;
+}
+
+table#stars td {
+    color: white;
+    background-color: #0a1083;
+}
+
+table#flag .red_stripe {
+    background-color: red;
+    height: 30.76923px;
+    width: 60%;
+}
+
+table#flag .white_stripe {
+    background-color: white;
+    height: 30.76923px;   
+    width: 60%;
+}

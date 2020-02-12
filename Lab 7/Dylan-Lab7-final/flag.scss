@@ -1,0 +1,37 @@
+$flag-height: 400px;
+$aspect-ratio: 16/9;
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+table#flag {
+  height: $flag-height;
+  width: $flag-height * $aspect-ratio;
+}
+
+table#flag td {
+  padding: 0;
+}
+
+table#stars {
+  height: 100%;
+  width: 100%;
+}
+
+table#stars td {
+  color: white;
+  background-color: #0a1083;
+}
+
+table#flag .red_stripe {
+  background-color: red;
+  height: $flag-height / 13;
+  width: 60%;
+}
+
+table#flag .white_stripe {
+  background-color: white;
+  height: $flag-height / 1;    
+  width: 60%;
+}

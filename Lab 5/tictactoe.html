@@ -1,0 +1,69 @@
+<html>
+<head>
+    <style>
+    body {
+        margin: 20px;
+        padding: 0px;
+    }
+</style>
+</head>
+<body>
+    <canvas id="myCanvas" width="600" height="600"></canvas>
+<script>
+
+    var canvas = document.getElementById("myCanvas");
+    var line1=canvas.getContext("2d");
+        line1.moveTo(200,0);
+        line1.lineTo(200,600);
+        line1.lineWidth=5;
+        line1.stroke();
+    var line2=canvas.getContext("2d");
+        line2.moveTo(400,0);
+        line2.lineTo(400,600);
+        line2.lineWidth=5;
+        line2.stroke();
+    var line3=canvas.getContext("2d");
+        line3.moveTo(0,200);
+        line3.lineTo(600,200);
+        line3.lineWidth=5;
+        line3.stroke();
+    var line4=canvas.getContext("2d");
+        line4.moveTo(0,400);
+        line4.lineTo(600,400);
+        line4.lineWidth=5;
+        line4.stroke();
+    var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95, 100, 90, 0, 2 * Math.PI);
+        ctx.stroke();
+    var c2 = document.getElementById("myCanvas");
+        var ctx2 = c2.getContext("2d");
+        ctx2.beginPath();
+        ctx2.arc(505, 505, 90, 0, 2 * Math.PI);
+        ctx2.stroke();
+    var x1=canvas.getContext("2d");
+        x1.moveTo(210,210);
+        x1.lineTo(390,390);
+        x1.lineWidth=5;
+        x1.stroke();
+    var x2=canvas.getContext("2d");
+        x2.moveTo(210,390);
+        x2.lineTo(390,210);
+        x2.lineWidth=5;
+        x2.stroke();
+
+    //var context = canvas.getContext("2d");
+    //var imageObj = new Image();
+
+
+
+    //imageObj.onload = function() {
+       //context.drawImage(imageObj, 0, 0, 600, 600);
+
+   //};
+    //imageObj.src = 
+    //"https://photos.smugmug.com/Rainy-Days/i-CM7TWSR/0/7515218c/X2/RainyCampus_35-X2.jpg";
+</script>
+</body>
+</html>
